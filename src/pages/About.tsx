@@ -1,10 +1,11 @@
 import profile from "../assets/img/profile.jpeg";
 import CodeAbout from "../components/CodeAbout";
+import Proyectos from "../components/Proyectos";
 
 const About = () => {
   return (
     <>
-      <div className="container mx-auto flex justify-center items-center gap-20">
+      <div className="container mx-auto flex flex-col md:flex-row justify-center items-center gap-20">
         <div className="bg-zinc-700 h-[330px] w-[330px] rounded-full flex justify-center items-center">
           <div
             style={{ backgroundImage: `url(${profile})` }}
@@ -13,21 +14,23 @@ const About = () => {
         </div>
 
         <div>
-          <div className="flex gap-3">
-            <p className="text-gray-200 font-semibold text-xl bg-red-500  p-2  rounded-md">
+          <div className="flex gap-3 justify-center md:justify-start">
+            <p className="text-gray-200 font-semibold md:text-xl bg-red-500  p-2  rounded-md">
               FullStack Developer
             </p>
 
-            <p className="text-gray-200 text-center font-semibold text-xl bg-red-500 p-2  rounded-md">
+            <p className="text-gray-200 text-center font-semibold md:text-xl bg-red-500 p-2  rounded-md">
               IoT
             </p>
 
-            <p className="text-gray-200 text-center font-semibold text-xl bg-red-500 p-2  rounded-md">
+            <p className="text-gray-200 text-center font-semibold md:text-xl bg-red-500 p-2  rounded-md">
               Estudiante
             </p>
           </div>
-          <h2 className="text-6xl font-bold text-gray-200">Facundo Almaraz</h2>
-          <p className="text-gray-200 f text-md w-[600px] mt-5">
+          <h2 className="md:text-6xl md:text-left text-center text-4xl text font-bold text-gray-200">
+            Facundo Almaraz
+          </h2>
+          <p className="text-gray-200 text-center md:text-left  md:text-md md:w-[600px] mt-5">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus
             animi, quam iure odio ab eius sunt consequatur deserunt amet,
             dolorum sint, nihil corrupti aperiam? Ab beatae ut quaerat debitis
@@ -72,8 +75,14 @@ const About = () => {
         </svg>
       </div>
 
-      <div className="grid grid-cols-2">
-        <CodeAbout/>
+      <div className="grid grid-cols-1 md:grid-cols-2 ">
+        <div className=" ">
+          <Proyectos />
+        </div>
+
+        <div className="  flex gap-3 ">
+          <CodeAbout />
+        </div>
       </div>
     </>
   );

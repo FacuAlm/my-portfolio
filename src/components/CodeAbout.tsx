@@ -1,11 +1,11 @@
 const CodeAbout = () => {
   return (
-    <div className=" col-start-2 flex gap-3 ">
-      <div className="border w-[1px] "></div>
+    <>
+      <div className="md:border w-[1px] "></div>
 
-      <div className="bg-black w-full rounded-2xl ">
-        <p className="text-gray-500 pt-3 pl-3">Sobre mi /{">"}</p>
-        <div className="p-10">
+      <div className="bg-black m-3 w-full  md:h-[1000px] rounded-2xl ">
+        <p className="text-gray-500 pt-3 pl-3">Sobre-mi.jsx</p>
+        <div className="md:p-10 py-10">
           <p>
             <span className="text-violet-500">export class</span>{" "}
             <span className="text-yellow-500">FacundoAlmaraz</span>{" "}
@@ -235,7 +235,8 @@ const CodeAbout = () => {
           </p>
         </div>
       </div>
-    </div>
+      </>
+    
   );
 };
 
