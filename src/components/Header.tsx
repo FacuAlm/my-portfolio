@@ -30,30 +30,22 @@ const Header = () => {
             Facundo Almaraz
           </h2>
           <p className="lg:text-md mt-5 text-center  text-gray-200 lg:w-[600px] lg:text-left">
-            Me considero una persona que se encuentra en constante aprendizaje,
-            siempre buscando nuevas oportunidades para adquirir experiencia y
-            desarrollarme profesionalmente en el mercado laboral.
+            Soy una persona apasionada por el Internet de las cosas y la
+            domótica, y cuento con experiencia en el desarrollo de proyectos
+            utilizando plataformas como Arduino. Me considero en constante
+            aprendizaje, buscando nuevas oportunidades para adquirir experiencia
+            y desarrollarme profesionalmente. Me interesa continuar aprendiendo
+            nuevas tecnologías y habilidades relacionadas con IoT y domótica
+            para seguir creciendo en mi carrera.
           </p>
           <p className="lg:text-md  text-center  text-gray-200 lg:w-[600px] lg:text-left">
-            Me apasiona el Internet de las cosas (IoT) y la domótica, y cuento
-            con experiencia en el desarrollo de proyectos utilizando plataformas
-            como Arduino. Además, me interesa continuar aprendiendo nuevas
-            tecnologías y habilidades relacionadas con IoT y domótica para
-            seguir creciendo en mi carrera.
-          </p>
-          <p className="lg:text-md  text-center  text-gray-200 lg:w-[600px] lg:text-left">
-            También poseo conocimientos en el desarrollo web frontend,
+            Además, tengo conocimientos en el desarrollo web frontend,
             incluyendo ReactJS, y experiencia en la creación de sitios web
-            responsivos y accesibles. Aunque en la actualidad mi interés se
-            enfoca más en desarrollar mis habilidades en el desarrollo
-            FullStack, combinando tanto el Frontend como el backend y desarrollo
-            de aplicaciones móviles para ofrecer soluciones más completas e
-            integrales.
-          </p>
-          <p className="lg:text-md  text-center  text-gray-200 lg:w-[600px] lg:text-left">
-            Estoy comprometido con seguir mejorando mis habilidades y
-            conocimiento en estas áreas para poder ofrecer lo mejor a cualquier
-            equipo de trabajo en el que me integre
+            responsivos y accesibles. Actualmente, mi enfoque está en el
+            desarrollo FullStack y la creación de aplicaciones móviles para
+            ofrecer soluciones más completas e integrales. Estoy comprometido en
+            mejorar mis habilidades y conocimientos en estas áreas para ofrecer
+            lo mejor a cualquier equipo de trabajo en el que me integre.
           </p>
         </div>
       </div>
