@@ -1,20 +1,29 @@
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <>
-      <div className="md:flex justify-between m-5 items-center">
-        <div className="text-gray-200 text-xl flex gap-3 justify-center items-center">
-          <div className="bg-red-500 rounded-full px-3 py-2 font-bold text-2xl">
+      <div className="flex flex-col md:flex-row md:items-center md:justify-between">
+        <div className="flex items-center gap-3">
+          <div className="rounded-full bg-red-500 px-3 py-2 text-xl text-white">
             FA
           </div>
-          <h1>
+
+          <h1 className="text-xl text-white">
+            {" "}
             <span className="font-bold">Facundo</span> Almaraz
           </h1>
         </div>
-        <nav className="flex md:flex-row flex-col gap-8 text-sm font-bold  text-gray-200">
-          <a href="#">Sobre Mi</a>
-          <a href="#">CV</a>
-          <a href="#">Portfolio</a>
-        </nav>
+
+        <div className="mb-5 mt-5 flex flex-col items-center gap-3 md:mb-0 md:mt-0 md:flex-row md:items-start">
+          <Link to="/" className="text-white hover:text-red-500">
+            Sobre mi
+          </Link>
+
+          <Link to="/proyectos" className="text-white hover:text-red-500">
+            Proyectos
+          </Link>
+        </div>
       </div>
     </>
   );

@@ -19,6 +19,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"],
+  "include": ["src", "router.jsx"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
