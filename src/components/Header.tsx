@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <>
-      <div className="container mx-auto flex flex-col items-center justify-center gap-20 md:flex-row">
+      <div className="container mx-auto flex flex-col items-center justify-center gap-20 lg:flex-row">
         <div className="flex h-[330px] w-[330px] items-center justify-center rounded-full bg-zinc-700">
           <div
             style={{ backgroundImage: `url(${profile})` }}
@@ -13,30 +13,47 @@ const Header = () => {
         </div>
 
         <div>
-          <div className="flex justify-center gap-3 md:justify-start">
-            <p className="rounded-md bg-red-500 p-2 font-semibold  text-gray-200  md:text-xl">
+          <div className="flex justify-center gap-3 lg:justify-start">
+            <p className="rounded-md bg-red-500 p-2 font-semibold  text-gray-200  lg:text-xl">
               FullStack Developer
             </p>
 
-            <p className="rounded-md bg-red-500 p-2 text-center font-semibold text-gray-200  md:text-xl">
+            <p className="rounded-md bg-red-500 p-2 text-center font-semibold text-gray-200  lg:text-xl">
               IoT
             </p>
 
-            <p className="rounded-md bg-red-500 p-2 text-center font-semibold text-gray-200  md:text-xl">
+            <p className="rounded-md bg-red-500 p-2 text-center font-semibold text-gray-200  lg:text-xl">
               Estudiante
             </p>
           </div>
-          <h2 className="text text-center text-4xl font-bold text-gray-200 md:text-left md:text-6xl">
+          <h2 className="text text-center text-4xl font-bold text-gray-200 lg:text-left lg:text-6xl">
             Facundo Almaraz
           </h2>
-          <p className="md:text-md mt-5 text-center  text-gray-200 md:w-[600px] md:text-left">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus
-            animi, quam iure odio ab eius sunt consequatur deserunt amet,
-            dolorum sint, nihil corrupti aperiam? Ab beatae ut quaerat debitis
-            eligendi! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Minus animi, quam iure odio ab eius sunt consequatur deserunt amet,
-            dolorum sint, nihil corrupti aperiam? Ab beatae ut quaerat debitis
-            eligendi!
+          <p className="lg:text-md mt-5 text-center  text-gray-200 lg:w-[600px] lg:text-left">
+            Me considero una persona que se encuentra en constante aprendizaje,
+            siempre buscando nuevas oportunidades para adquirir experiencia y
+            desarrollarme profesionalmente en el mercado laboral.
+          </p>
+          <p className="lg:text-md  text-center  text-gray-200 lg:w-[600px] lg:text-left">
+            Me apasiona el Internet de las cosas (IoT) y la domótica, y cuento
+            con experiencia en el desarrollo de proyectos utilizando plataformas
+            como Arduino. Además, me interesa continuar aprendiendo nuevas
+            tecnologías y habilidades relacionadas con IoT y domótica para
+            seguir creciendo en mi carrera.
+          </p>
+          <p className="lg:text-md  text-center  text-gray-200 lg:w-[600px] lg:text-left">
+            También poseo conocimientos en el desarrollo web frontend,
+            incluyendo ReactJS, y experiencia en la creación de sitios web
+            responsivos y accesibles. Aunque en la actualidad mi interés se
+            enfoca más en desarrollar mis habilidades en el desarrollo
+            FullStack, combinando tanto el Frontend como el backend y desarrollo
+            de aplicaciones móviles para ofrecer soluciones más completas e
+            integrales.
+          </p>
+          <p className="lg:text-md  text-center  text-gray-200 lg:w-[600px] lg:text-left">
+            Estoy comprometido con seguir mejorando mis habilidades y
+            conocimiento en estas áreas para poder ofrecer lo mejor a cualquier
+            equipo de trabajo en el que me integre
           </p>
         </div>
       </div>

@@ -1,11 +1,11 @@
 const CodeAbout = () => {
   return (
     <>
-      <div className="w-[1px] md:border "></div>
+      <div className="w-[1px] lg:border "></div>
 
-      <div className="m-3 w-full rounded-2xl  bg-black md:h-[1000px] ">
+      <div className="m-3 w-full rounded-2xl  bg-black lg:h-[1000px] ">
         <p className="pl-3 pt-3 text-gray-500">Sobre-mi.jsx</p>
-        <div className="py-10 md:p-10">
+        <div className="py-10 lg:p-10">
           <p>
             <span className="text-violet-500">export class</span>{" "}
             <span className="text-yellow-500">FacundoAlmaraz</span>{" "}
